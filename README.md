@@ -8,13 +8,13 @@ A senior-level, production-ready XSS vulnerability scanner with intelligent cont
 
 ## ✨ Features
 
-### 🎯 **Intelligent Parameter Discovery**
+### **Intelligent Parameter Discovery**
 - Automatic extraction from URL query strings
 - Form field detection and analysis
 - Link-based parameter discovery
 - Manual parameter specification support
 
-### 🔍 **Advanced Context Detection**
+###  **Advanced Context Detection**
 - HTML Text Nodes
 - Attribute Values (Double/Single/Unquoted)
 - JavaScript Contexts (Script blocks & strings)
@@ -23,14 +23,14 @@ A senior-level, production-ready XSS vulnerability scanner with intelligent cont
 - CSS/Style Blocks
 - URL Parameters
 
-### 🚀 **Smart Capabilities**
+###  **Smart Capabilities**
 - **Context-Aware Payloads**: Generates targeted exploits based on injection context
 - **Multi-threaded Scanning**: Concurrent testing for faster results
 - **Intelligent Reflection Detection**: Unique probe strings with accurate tracking
 - **AI-Powered Payloads**: Optional Gemini AI integration for advanced exploitation
 - **Modern Bypasses**: Includes polyglot payloads and creative techniques
 
-### 📊 **Beautiful Reporting**
+###  **Beautiful Reporting**
 - **Stunning HTML Reports**: Dark/light mode toggle
 - **Auto-Named Reports**: `xss-report_YYYY-MM-DD_HH-MM-SS_{domain}.html`
 - **Responsive Design**: Works perfectly on mobile devices
@@ -38,7 +38,7 @@ A senior-level, production-ready XSS vulnerability scanner with intelligent cont
 - **Syntax Highlighting**: Professional code display
 - **Real-time Statistics**: Comprehensive scan metrics
 
-### 🎨 **Professional UI**
+###  **Professional UI**
 - Eye-catching ASCII banner
 - Rich color scheme with semantic meanings
 - Real-time progress indicators
@@ -47,7 +47,7 @@ A senior-level, production-ready XSS vulnerability scanner with intelligent cont
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -80,22 +80,22 @@ python main.py
 ```
 ❯ python main.py
 
-🎯 TARGET CONFIGURATION
+ TARGET CONFIGURATION
 ❯ Target URL: https://example.com/search?q=test
 
-🔍 PARAMETER DISCOVERY
+ PARAMETER DISCOVERY
   ✓ Found 1 parameter(s) in URL: q
 
-🔧 HTTP METHOD
+ HTTP METHOD
 ❯ Select method [1-2]: 1
 
-⚡ PERFORMANCE
+ PERFORMANCE
 ❯ Threads [default: 5]: 5
 
-🤖 AI-POWERED PAYLOADS (Optional)
+ AI-POWERED PAYLOADS (Optional)
 ❯ Enable Gemini AI? (y/N): n
 
-📋 SCAN SUMMARY
+ SCAN SUMMARY
   Target URL  : https://example.com/search
   Parameters  : q (1 total)
   Threads     : 5
@@ -107,7 +107,7 @@ python main.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 xss-scanner/
@@ -130,7 +130,7 @@ xss-scanner/
 
 ---
 
-## 🎯 How It Works
+##  How It Works
 
 ### 1. **URL Analysis & Parameter Discovery**
 User enters target URL:
@@ -209,7 +209,7 @@ Contains:
 
 ---
 
-## 🤖 AI-Powered Payloads (Optional)
+##  AI-Powered Payloads (Optional)
 
 ### Setup Gemini AI
 
@@ -302,7 +302,7 @@ xss-report_2024-01-15_14-30-45_example.com.html
 
 ---
 
-## 🛡️ Security & Ethics
+##  Security & Ethics
 
 ### ⚠️ IMPORTANT
 
@@ -364,7 +364,7 @@ response = self.session.get(url, timeout=30)  # Increase timeout
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### No Parameters Discovered
 

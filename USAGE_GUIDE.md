@@ -1,6 +1,6 @@
 # 🎯 XSS Scanner - Complete Usage Guide
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Basic Scan
 ```bash
@@ -16,7 +16,7 @@ That's it! The scanner will guide you through an interactive setup.
 ### Step 1: Enter Target URL
 
 ```
-🎯 TARGET CONFIGURATION
+ TARGET CONFIGURATION
   Enter the URL you want to test for XSS vulnerabilities
 
 ❯ Target URL: https://example.com/search?q=test&filter=all
@@ -43,7 +43,7 @@ The scanner automatically discovers injectable parameters using multiple methods
 
 #### Method 1: URL Query Parameters
 ```
-🔍 PARAMETER DISCOVERY
+ PARAMETER DISCOVERY
   ✓ Found 2 parameter(s) in URL: q, filter
 ```
 
@@ -131,7 +131,7 @@ If auto-discovery fails:
 ### Step 5: AI Configuration (Optional)
 
 ```
-🤖 AI-POWERED PAYLOADS (Optional)
+ AI-POWERED PAYLOADS (Optional)
   Enable Gemini AI for advanced, context-aware payload generation
 
 ❯ Enable Gemini AI? (y/N): y

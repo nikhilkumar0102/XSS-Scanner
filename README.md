@@ -415,49 +415,6 @@ response = self.session.get(url, timeout=30)  # Increase timeout
 
 ---
 
-## 🏆 Evaluation Score: 100/100
-
-### ✅ Architecture (20/20)
-- Clean, modular design
-- Single responsibility per module
-- No dependencies on sample targets
-- User-driven workflow
-
-### ✅ Visual Appeal (20/20)
-- Stunning ASCII banner
-- Interactive guided setup
-- Real-time feedback
-- Professional color scheme
-
-### ✅ HTML Report (20/20)
-- Auto-named with timestamp and domain
-- Dark/light mode
-- Fully responsive
-- Clickable exploits
-
-### ✅ Context Detection (15/15)
-- 11 different contexts
-- Accurate detection
-- HTML/JS/JSON support
-
-### ✅ Smart Payloads (10/10)
-- Context-specific generation
-- AI integration (optional)
-- Modern bypasses
-
-### ✅ Design Quality (10/10)
-- Automatic parameter discovery
-- Interactive configuration
-- Graceful error handling
-
-### ✅ Bonus Features (5/5)
-- URL-based workflow
-- Form discovery
-- AI integration
-- Professional documentation
-
----
-
 ## 🤝 Contributing
 
 Contributions welcome! Please maintain:

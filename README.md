@@ -396,8 +396,7 @@ response = self.session.get(url, timeout=30)  # Increase timeout
 
 - **[USAGE_GUIDE.md](USAGE_GUIDE.md)** - Detailed usage instructions
 - **[GEMINI_SETUP.md](GEMINI_SETUP.md)** - AI integration guide
-- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Installation & setup
-
+  
 ---
 
 ## 🎓 Learning Resources
